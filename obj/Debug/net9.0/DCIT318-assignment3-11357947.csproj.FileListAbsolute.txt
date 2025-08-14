@@ -1,0 +1,15 @@
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\bin\Debug\net9.0\DCIT318-assignment3-11357947.exe
+C:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\bin\Debug\net9.0\DCIT318-assignment3-11357947.deps.json
+C:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\bin\Debug\net9.0\DCIT318-assignment3-11357947.runtimeconfig.json
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\bin\Debug\net9.0\DCIT318-assignment3-11357947.dll
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\bin\Debug\net9.0\DCIT318-assignment3-11357947.pdb
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.AssemblyInfoInputs.cache
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.AssemblyInfo.cs
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.csproj.CoreCompileInputs.cache
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.sourcelink.json
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.dll
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\refint\DCIT318-assignment3-11357947.dll
+c:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.pdb
+C:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\DCIT318-assignment3-11357947.genruntimeconfig.cache
+C:\Users\elitebook\Documents\DCIT318\DCIT318-assignment3-11357947\obj\Debug\net9.0\ref\DCIT318-assignment3-11357947.dll
