@@ -1,15 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+
 public class Program
 {
     public static void Main(string[] args)
     {
         //Question one
-        Console.WriteLine("Question one");
+        Console.WriteLine("\nQuestion one");
         FinanceApp app = new FinanceApp();
         app.Run();
 
         //Question two
-        Console.WriteLine("Question two");
+        Console.WriteLine("\nQuestion two");
         HealthSystemApp healthApp = new HealthSystemApp();
         healthApp.SeedData();
         healthApp.BuildPrescriptionMap();
@@ -25,7 +28,7 @@ public class Program
         }
 
         //Question three   
-        Console.WriteLine("Question three");
+        Console.WriteLine("\nQuestion three");
 
         WareHouseManager manager1 = new WareHouseManager();
         manager1.SeedData();
@@ -37,7 +40,7 @@ public class Program
         manager1.PrintAllItems(manager1.ElectronicsRepo);
 
         Console.WriteLine("\n--- Testing Exceptions ---");
-         try
+        try
         {
             manager1.ElectronicsRepo.AddItem(new ElectronicItem(1, "Tablet", 5, "Apple", 12));
         }
@@ -46,11 +49,40 @@ public class Program
             Console.WriteLine($"Error: {ex.Message}");
         }
 
-        manager1.RemoveItemById(manager1.GroceriesRepo, 99); 
-        manager1.IncreaseStock(manager1.ElectronicsRepo, 2, -50); 
-    
+        manager1.RemoveItemById(manager1.GroceriesRepo, 99);
+        manager1.IncreaseStock(manager1.ElectronicsRepo, 2, -50);
+
+        //Question 4
+        Console.WriteLine("\nQuestion four");
+
+        try
+        {
+        StudentResultProcessor processor = new StudentResultProcessor();
+        List<Student> students = processor.ReadStudentsFromFile(inputFile);
+        processor.WriteReportToFile(students, outputFile);
+
+        Console.WriteLine("Report generated successfully.");
+        }
+          catch (FileNotFoundException ex)
+        {
+            Console.WriteLine($"Error: Input file not found. {ex.Message}");
+        }
+        catch (InvalidScoreFormatException ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+        catch (MissingFieldException ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+        }
+
+        
     }
-   
+
 
         }
 
