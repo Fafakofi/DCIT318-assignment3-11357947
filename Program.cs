@@ -80,6 +80,22 @@ public class Program
             Console.WriteLine($"An unexpected error occurred: {ex.Message}");
         }
 
+         //Question 5
+        Console.WriteLine("\nQuestion five");
+        string filePath = "inventory.json";
+
+    
+        var app = new InventoryApp(filePath);
+        app.SeedSampleData();
+        app.SaveData();
+
+        Console.WriteLine("\n--- new session Simulating ---\n");
+
+        
+        var newApp = new InventoryApp(filePath);
+        newApp.LoadData();
+        newApp.PrintAllItems();
+
         
     }
 
